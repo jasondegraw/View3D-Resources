@@ -41,7 +41,7 @@ vs3data.writeVTK(outfile)
 outfile.close()
 
 # Write out the stats
-fperr.write('Summary of input file "%s":\n' % sys.argv[0])
+fperr.write('Summary of input file "%s":\n' % sys.argv[1])
 fperr.write('  %d vertices\n' % vs3data.nvertices())
 fperr.write('  %d surfaces\n' % vs3data.nsurfaces())
 #print('    %d regular' % stats['S'])
